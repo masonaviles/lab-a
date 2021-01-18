@@ -126,6 +126,7 @@ function multiplyArray(i) { //eslint-disable-line
   var totalMulti = multi2[0];
   //"The numbers 2,3,4 have a product of 24."
   var message = "The numbers "+ i[0] + "," + i[1] + "," + i[2] + " have a product of " + totalMulti + ".";
+  message = `The numbers ${i[0]},${i[1]},${i[2]} have a product of ${totalMulti}.`;
   var ansArray = [];
 
   ansArray.push(totalMulti);
